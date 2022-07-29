@@ -1,2 +1,17 @@
-<app-board></app-board>
+<nav>
+    <ul>
+        <li>
+            <a class="button" routerLink="/home">Home</a>            
+        </li>
+        <li>
+            <a class="button" routerLink="/about">About</a>
+            <ul>
+                <li><a class="button" routerLink="/about/nested">Nested</a></li>
+            </ul>
+        </li>
+        <li>
+            <a class="button" routerLink="/board">Board</a>            
+        </li>
+    </ul>
+</nav>
 <router-outlet></router-outlet>
